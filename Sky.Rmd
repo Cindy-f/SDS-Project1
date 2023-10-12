@@ -22,7 +22,7 @@ We choose the data set of skyscrapers. The above dataset records 1275 skyscraper
 
 ```{r, echo=FALSE}
 # This is the place to import csv file containing building information. Change the file name inside read.csv('new file.csv'); upload a new picture by include_graphics("picture.jpeg")
-skyscrapers <- read.csv('/Users/cindyfan/Desktop/Project 1/skyscrapers.csv')
+skyscrapers <- read.csv('skyscrapers.csv') #add this in because it wont be local to your computer therefore I can run it too 
 knitr::include_graphics("skyscraper construction.jpeg") 
 
 ```
@@ -110,7 +110,7 @@ Overall, demolished skyscrapers tend to have fewer number of floors and lower he
 
 
 
-
+#hello
 
 
 
